@@ -1,0 +1,7 @@
+
+<div id=tutoriales>
+    @for(card of cards; track card.title) {
+        <app-card [img]="card.img" [title]="card.title" [subtitle]="card.subtitle" [link]="card.link"></app-card>
+    }
+    <!-- <app-card [img]="imagen1" [title]="titulo1" [subtitle]="subtitulo1" [link]="link1"></app-card> -->
+</div>
